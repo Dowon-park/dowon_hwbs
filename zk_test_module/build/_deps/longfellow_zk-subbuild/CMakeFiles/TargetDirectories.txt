@@ -1,0 +1,3 @@
+/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/CMakeFiles/longfellow_zk-populate.dir
+/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/CMakeFiles/edit_cache.dir
+/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/CMakeFiles/rebuild_cache.dir

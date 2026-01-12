@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/CMakeFiles/longfellow_zk-populate"
+		},
+		{
+			"file" : "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/CMakeFiles/longfellow_zk-populate.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/CMakeFiles/longfellow_zk-populate-complete.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/longfellow_zk-populate-prefix/src/longfellow_zk-populate-stamp/longfellow_zk-populate-build.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/longfellow_zk-populate-prefix/src/longfellow_zk-populate-stamp/longfellow_zk-populate-configure.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/longfellow_zk-populate-prefix/src/longfellow_zk-populate-stamp/longfellow_zk-populate-download.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/longfellow_zk-populate-prefix/src/longfellow_zk-populate-stamp/longfellow_zk-populate-install.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/longfellow_zk-populate-prefix/src/longfellow_zk-populate-stamp/longfellow_zk-populate-mkdir.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/longfellow_zk-populate-prefix/src/longfellow_zk-populate-stamp/longfellow_zk-populate-patch.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/longfellow_zk-populate-prefix/src/longfellow_zk-populate-stamp/longfellow_zk-populate-test.rule"
+		},
+		{
+			"file" : "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-subbuild/longfellow_zk-populate-prefix/src/longfellow_zk-populate-stamp/longfellow_zk-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"longfellow_zk-populate"
+		],
+		"name" : "longfellow_zk-populate"
+	}
+}
