@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/algebra/utility_test[1]_tests.cmake")
+  include("/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/algebra/utility_test[1]_tests.cmake")
+else()
+  add_test(utility_test_NOT_BUILT utility_test_NOT_BUILT)
+endif()

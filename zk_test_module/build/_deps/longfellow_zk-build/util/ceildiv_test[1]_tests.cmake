@@ -1,0 +1,7 @@
+add_test([=[Morton.Even]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/util/ceildiv_test [==[--gtest_filter=Morton.Even]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Morton.Even]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/util SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Morton.Uneven]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/util/ceildiv_test [==[--gtest_filter=Morton.Uneven]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Morton.Uneven]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/util SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Morton.AddSub]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/util/ceildiv_test [==[--gtest_filter=Morton.AddSub]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Morton.AddSub]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/util SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  ceildiv_test_TESTS Morton.Even Morton.Uneven Morton.AddSub)

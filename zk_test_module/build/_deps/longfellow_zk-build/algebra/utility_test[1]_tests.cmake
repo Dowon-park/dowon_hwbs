@@ -1,0 +1,5 @@
+add_test([=[Utility.BatchInverse]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/algebra/utility_test [==[--gtest_filter=Utility.BatchInverse]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Utility.BatchInverse]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/algebra SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Utility.Factorial]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/algebra/utility_test [==[--gtest_filter=Utility.Factorial]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Utility.Factorial]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/algebra SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  utility_test_TESTS Utility.BatchInverse Utility.Factorial)

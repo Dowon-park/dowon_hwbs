@@ -1,0 +1,5 @@
+add_test([=[circuit_io.ecdsa]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/proto/circuit_test [==[--gtest_filter=circuit_io.ecdsa]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[circuit_io.ecdsa]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/proto SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[circuit_io.SHA]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/proto/circuit_test [==[--gtest_filter=circuit_io.SHA]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[circuit_io.SHA]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/proto SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  circuit_test_TESTS circuit_io.ecdsa circuit_io.SHA)

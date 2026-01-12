@@ -1,0 +1,5 @@
+add_test([=[jwt.EvalJWT]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/circuits/mdoc/mdoc_1f_test [==[--gtest_filter=jwt.EvalJWT]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[jwt.EvalJWT]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/circuits/mdoc SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Mdoc1fTest.RunsExamples]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/circuits/mdoc/mdoc_1f_test [==[--gtest_filter=Mdoc1fTest.RunsExamples]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Mdoc1fTest.RunsExamples]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/circuits/mdoc SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  mdoc_1f_test_TESTS jwt.EvalJWT Mdoc1fTest.RunsExamples)

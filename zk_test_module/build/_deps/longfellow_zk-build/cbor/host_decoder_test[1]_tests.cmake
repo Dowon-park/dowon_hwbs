@@ -1,0 +1,5 @@
+add_test([=[HostDecoderTest.DecodeHost]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/cbor/host_decoder_test [==[--gtest_filter=HostDecoderTest.DecodeHost]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[HostDecoderTest.DecodeHost]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/cbor SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[HostDecoderTest.Lookup]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/cbor/host_decoder_test [==[--gtest_filter=HostDecoderTest.Lookup]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[HostDecoderTest.Lookup]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/cbor SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  host_decoder_test_TESTS HostDecoderTest.DecodeHost HostDecoderTest.Lookup)

@@ -1,0 +1,7 @@
+add_test([=[Affine.Bind]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/arrays/affine_test [==[--gtest_filter=Affine.Bind]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Affine.Bind]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/arrays SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Affine.SparseBind]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/arrays/affine_test [==[--gtest_filter=Affine.SparseBind]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Affine.SparseBind]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/arrays SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Affine.Canonicalize]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/arrays/affine_test [==[--gtest_filter=Affine.Canonicalize]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Affine.Canonicalize]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/arrays SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  affine_test_TESTS Affine.Bind Affine.SparseBind Affine.Canonicalize)

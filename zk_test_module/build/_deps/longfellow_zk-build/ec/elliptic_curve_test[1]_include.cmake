@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/ec/elliptic_curve_test[1]_tests.cmake")
+  include("/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/ec/elliptic_curve_test[1]_tests.cmake")
+else()
+  add_test(elliptic_curve_test_NOT_BUILT elliptic_curve_test_NOT_BUILT)
+endif()

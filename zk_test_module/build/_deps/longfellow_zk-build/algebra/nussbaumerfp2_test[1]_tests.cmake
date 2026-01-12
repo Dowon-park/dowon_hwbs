@@ -1,0 +1,7 @@
+add_test([=[Nussbaumer.NegaCyclic]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/algebra/nussbaumerfp2_test [==[--gtest_filter=Nussbaumer.NegaCyclic]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Nussbaumer.NegaCyclic]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/algebra SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Nussbaumer.Linear]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/algebra/nussbaumerfp2_test [==[--gtest_filter=Nussbaumer.Linear]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Nussbaumer.Linear]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/algebra SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Nussbaumer.Middle]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/algebra/nussbaumerfp2_test [==[--gtest_filter=Nussbaumer.Middle]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Nussbaumer.Middle]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/algebra SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  nussbaumerfp2_test_TESTS Nussbaumer.NegaCyclic Nussbaumer.Linear Nussbaumer.Middle)

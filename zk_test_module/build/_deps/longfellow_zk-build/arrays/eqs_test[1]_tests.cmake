@@ -1,0 +1,5 @@
+add_test([=[Eqs.All]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/arrays/eqs_test [==[--gtest_filter=Eqs.All]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Eqs.All]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/arrays SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Eqs.RFC]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/arrays/eqs_test [==[--gtest_filter=Eqs.RFC]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Eqs.RFC]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/arrays SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  eqs_test_TESTS Eqs.All Eqs.RFC)

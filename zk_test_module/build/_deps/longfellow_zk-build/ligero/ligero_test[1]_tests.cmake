@@ -1,0 +1,5 @@
+add_test([=[Ligero.Fp]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/ligero/ligero_test [==[--gtest_filter=Ligero.Fp]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Ligero.Fp]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/ligero SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Ligero.GF2_128]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/ligero/ligero_test [==[--gtest_filter=Ligero.GF2_128]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Ligero.GF2_128]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/ligero SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  ligero_test_TESTS Ligero.Fp Ligero.GF2_128)

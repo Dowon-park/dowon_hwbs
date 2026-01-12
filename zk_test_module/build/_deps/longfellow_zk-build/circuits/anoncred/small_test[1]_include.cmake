@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/circuits/anoncred/small_test[1]_tests.cmake")
+  include("/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/circuits/anoncred/small_test[1]_tests.cmake")
+else()
+  add_test(small_test_NOT_BUILT small_test_NOT_BUILT)
+endif()

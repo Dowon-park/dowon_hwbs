@@ -1,0 +1,7 @@
+add_test([=[Memcmp.Simple]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/circuits/logic/memcmp_test [==[--gtest_filter=Memcmp.Simple]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Memcmp.Simple]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/circuits/logic SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Memcmp.Date]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/circuits/logic/memcmp_test [==[--gtest_filter=Memcmp.Date]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Memcmp.Date]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/circuits/logic SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[Memcmp.size]=]  /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/circuits/logic/memcmp_test [==[--gtest_filter=Memcmp.size]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[Memcmp.size]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/circuits/logic SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  memcmp_test_TESTS Memcmp.Simple Memcmp.Date Memcmp.size)

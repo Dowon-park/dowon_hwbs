@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/util/ceildiv_test[1]_tests.cmake")
+  include("/mnt/c/Users/dwp15/Antigravity/zk_test_module/build/_deps/longfellow_zk-build/util/ceildiv_test[1]_tests.cmake")
+else()
+  add_test(ceildiv_test_NOT_BUILT ceildiv_test_NOT_BUILT)
+endif()
